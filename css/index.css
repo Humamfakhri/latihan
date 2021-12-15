@@ -30,3 +30,20 @@ body {
     box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
     transition: .2s;
 }
+
+@media screen and (max-width: 991px) {
+    /* MOBILE */
+    .navbar .collapse, .navbar .navbar-collapse {
+        position: absolute;
+        background-color: var(--primary);
+        right: 10px;
+        top: 50px;
+        z-index: -1;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .active::after {
+        display: none;
+    }
+    /* MOBILE END */
+}
