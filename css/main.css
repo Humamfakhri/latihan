@@ -1,0 +1,31 @@
+/* FONTS */
+.font-pop {
+    font-family: 'Poppins', sans-serif;
+}
+.font-nun {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* TOOLS */
+.pt-80 {
+    padding-top: 80px;
+}
+.text-primary {
+    color: #ff7a01 !important;
+}
+.btn-primary {
+    background-color: #ff7a01;
+    border: 1px solid #ff7a01;
+}
+.btn-primary:hover {
+    background-color: #c45f00;
+    border: 1px solid #c45f00;
+}
+.btn-outline-primary {
+    border: 1px solid #ff7a01;
+    color: #ff7a01;
+}
+.btn-outline-primary:hover {
+    background-color: #ff7a01;
+    border: 1px solid #ff7a01;
+}
