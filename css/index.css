@@ -25,10 +25,15 @@ body {
 .active::after {
     transform: scale(1);
 }
-/* NAV-SCROLLED */
-.nav-scrolled {
-    box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
-    transition: .2s;
+    /* NAV-SCROLLED */
+    .nav-scrolled {
+        background-color: #fff;
+        box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+        transition: .2s;
+    }
+/* HERO */
+.hero {
+    padding-top: 150px;
 }
 
 @media screen and (max-width: 991px) {
