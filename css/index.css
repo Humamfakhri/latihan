@@ -2,3 +2,31 @@
     font-family: 'Poppins', sans-serif;
     color: #212529;
 }
+
+body {
+    margin-bottom: 1000px;
+}
+/* NAVBAR */
+.navbar {
+    transition: .2s;
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    border: 1px solid var(--primary);
+    width: 50%;
+    margin: 0 auto;
+    transform: scale(0);
+    transition: .15s;
+}
+.nav-link:hover::after {
+    transform: scale(1);
+}
+.active::after {
+    transform: scale(1);
+}
+/* NAV-SCROLLED */
+.nav-scrolled {
+    box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+    transition: .2s;
+}

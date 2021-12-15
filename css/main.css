@@ -1,3 +1,6 @@
+:root {
+    --primary : #ff7a01;
+}
 /* FONTS */
 .font-pop {
     font-family: 'Poppins', sans-serif;
